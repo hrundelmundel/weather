@@ -1,5 +1,28 @@
-.page-1-img{
+:root {
+  --font-family: "Poppins", sans-serif;
+  --second-family: "AvertaStd", sans-serif;
+  --third-family: "Roboto", sans-serif;
+}
+.page-1{
+max-width: 380vh;
+min-height: 100vh;
+color: #fff;
 display: flex;
 justify-content: center;
 align-items: center;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+padding: 20px;
+}
+.page-1-text1{
+    color: #0A0A22;
+    font-family: var(--font-family);
+    font-size: 40px;
+    font-weight: 200;
+    
+}
+.page-1-text2{
+    color: #8B95A2;
+    font-size: 24px;
 }
