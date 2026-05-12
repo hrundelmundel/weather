@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <link rel="stylesheet" href="/styleHome.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet" />
+</head>
+
+<body>
+
+    <div class="weather-app">
+
+        <div class="topbar">
+            <button class="icon-btn">☰</button>
+
+            <h2>Tamil Nadu, Chennai</h2>
+
+            <button class="icon-btn">⋮</button>
+        </div>
+
+        <div class="tabs">
+            <div class="tab active">Today</div>
+            <div class="tab">Forecast</div>
+            <div class="tab">Precipitation</div>
+        </div>
+
+        <section class="hero">
+
+            <div class="date-pill">
+                Saturday, 11 Sept
+            </div>
+
+            <div class="weather-main">
+
+                <div class="weather-icon">
+                    <div class="sun"></div>
+                    <div class="cloud"></div>
+                </div>
+
+                <div class="temp-box">
+                    <svg width="83" height="69" viewBox="0 0 83 69" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g filter="url(#filter0_d_1_2723)">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M25.7285 53.0862C23.3709 54.2536 20.5698 54.8373 17.3254 54.8373C12.1342 54.8373 7.99216 53.5618 4.89912 51.0107C1.80608 48.4597 0.173037 44.6115 0 39.4662H10.7716C10.8148 41.3687 11.3556 42.8712 12.3938 43.9738C13.432 45.0763 14.9461 45.6276 16.936 45.6276C18.6231 45.6276 19.9317 45.1412 20.8618 44.1683C21.7919 43.1955 22.2569 41.9091 22.2569 40.3093C22.2569 38.2339 21.5972 36.7314 20.2778 35.8018C18.9584 34.8722 16.8495 34.4073 13.9511 34.4073H11.8747V25.3922H13.9511C16.1574 25.3922 17.9418 25.0139 19.3045 24.2572C20.6671 23.5006 21.3485 22.1494 21.3485 20.2037C21.3485 18.6471 20.9159 17.4364 20.0507 16.5717C19.1855 15.7069 17.9959 15.2745 16.4818 15.2745C14.838 15.2745 13.6159 15.7718 12.8156 16.7663C12.0153 17.7607 11.5502 18.993 11.4205 20.4631H0.584001C0.757038 15.8366 2.27112 12.2695 5.12623 9.7617C7.98135 7.2539 11.8531 6 16.7414 6C19.9858 6 22.7652 6.56209 25.0796 7.68628C27.394 8.81047 29.146 10.3454 30.3356 12.2911C31.5252 14.2368 32.1201 16.4204 32.1201 18.8417C32.1201 21.6954 31.4063 24.0194 29.9787 25.8138C28.5512 27.6082 26.8857 28.8296 24.9823 29.4782V29.7376C27.448 30.5592 29.3947 31.9212 30.8223 33.8236C32.2498 35.7261 32.9636 38.169 32.9636 41.1525C32.9636 43.8332 32.3472 46.2005 31.1143 48.2543C29.8814 50.3081 28.0861 51.9187 25.7285 53.0862ZM65.3649 53.0862C63.0072 54.2536 60.2062 54.8373 56.9617 54.8373C51.7706 54.8373 47.6285 53.5618 44.5355 51.0107C41.4424 48.4597 39.8094 44.6115 39.6364 39.4662H50.4079C50.4512 41.3687 50.9919 42.8712 52.0302 43.9738C53.0684 45.0763 54.5825 45.6276 56.5724 45.6276C58.2595 45.6276 59.5681 45.1412 60.4982 44.1683C61.4283 43.1955 61.8933 41.9091 61.8933 40.3093C61.8933 38.2339 61.2336 36.7314 59.9142 35.8018C58.5948 34.8722 56.4859 34.4073 53.5875 34.4073H51.5111V25.3922H53.5875C55.7937 25.3922 57.5782 25.0139 58.9408 24.2572C60.3035 23.5006 60.9849 22.1494 60.9849 20.2037C60.9849 18.6471 60.5523 17.4364 59.6871 16.5717C58.8219 15.7069 57.6323 15.2745 56.1182 15.2745C54.4743 15.2745 53.2522 15.7718 52.4519 16.7663C51.6516 17.7607 51.1866 18.993 51.0568 20.4631H40.2204C40.3934 15.8366 41.9075 12.2695 44.7626 9.7617C47.6177 7.2539 51.4894 6 56.3777 6C59.6222 6 62.4016 6.56209 64.716 7.68628C67.0303 8.81047 68.7823 10.3454 69.972 12.2911C71.1616 14.2368 71.7564 16.4204 71.7564 18.8417C71.7564 21.6954 71.0426 24.0194 69.6151 25.8138C68.1875 27.6082 66.522 28.8296 64.6186 29.4782V29.7376C67.0844 30.5592 69.0311 31.9212 70.4586 33.8236C71.8862 35.7261 72.6 38.169 72.6 41.1525C72.6 43.8332 71.9835 46.2005 70.7506 48.2543C69.5178 50.3081 67.7225 51.9187 65.3649 53.0862Z"
+                                fill="url(#paint0_linear_1_2723)" />
+                        </g>
+                        <defs>
+                            <filter id="filter0_d_1_2723" x="-10" y="0" width="92.6001" height="68.8373"
+                                filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                                <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                                <feColorMatrix in="SourceAlpha" type="matrix"
+                                    values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
+                                <feOffset dy="4" />
+                                <feGaussianBlur stdDeviation="5" />
+                                <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.181016 0" />
+                                <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_1_2723" />
+                                <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_1_2723"
+                                    result="shape" />
+                            </filter>
+                            <linearGradient id="paint0_linear_1_2723" x1="-17.29" y1="32.1275" x2="14.0286" y2="95.7019"
+                                gradientUnits="userSpaceOnUse">
+                                <stop stop-color="#A2A4B5" />
+                                <stop offset="1" stop-color="#545760" />
+                            </linearGradient>
+                        </defs>
+                    </svg>
+                    <div class="status">Partly cloudy</div>
+                </div>
+
+            </div>
+
+            <div class="details-top">
+                <span>29° / 27° | Feels like <span style="color: #FFFFFF;">39°C</span></span>
+                <span>Wind <span style="color: #FFFFFF;">9 KM</span>/H WSW</span>
+            </div>
+
+        </section>
+
+        <section class="info-grid">
+
+            <div class="info-card">
+                <div class="info-title">Precipitation</div>
+                <div class="info-value">21%</div>
+            </div>
+
+            <div class="info-card">
+                <div class="info-title">Humidity</div>
+                <div class="info-value">59%</div>
+            </div>
+
+            <div class="info-card">
+                <div class="info-title">Wind</div>
+                <div class="info-value">10 km/h</div>
+            </div>
+
+            <div class="info-card">
+                <div class="info-title">Sunset</div>
+                <div class="info-value">29%</div>
+            </div>
+
+        </section>
+
+        <section class="hourly">
+
+            <div class="hour-card">
+                <div class="hour-time">01:00</div>
+                <div class="hour-icon">⛅</div>
+                <div class="hour-temp">29°</div>
+            </div>
+
+            <div class="hour-card">
+                <div class="hour-time">02:00</div>
+                <div class="hour-icon">☀️</div>
+                <div class="hour-temp">26°</div>
+            </div>
+
+            <div class="hour-card">
+                <div class="hour-time">04:00</div>
+                <div class="hour-icon">🌦️</div>
+                <div class="hour-temp">23°</div>
+            </div>
+
+            <div class="hour-card">
+                <div class="hour-time">05:00</div>
+                <div class="hour-icon">⛅</div>
+                <div class="hour-temp">28°</div>
+            </div>
+
+            <div class="hour-card">
+                <div class="hour-time">08:00</div>
+                <div class="hour-icon">☀️</div>
+                <div class="hour-temp">29°</div>
+            </div>
+
+        </section>
+
+        <section class="weekly">
+
+            <div class="week-row">
+                <div class="day">Today</div>
+                <div class="week-icon">🌦️</div>
+
+                <div class="temps">
+                    <div class="high">86°</div>
+                    <div class="low">67°</div>
+                </div>
+            </div>
+
+            <div class="week-row">
+                <div class="day">Sunday</div>
+                <div class="week-icon">☀️</div>
+
+                <div class="temps">
+                    <div class="high">83°</div>
+                    <div class="low">74°</div>
+                </div>
+            </div>
+
+            <div class="week-row">
+                <div class="day">Monday</div>
+                <div class="week-icon">☀️</div>
+
+                <div class="temps">
+                    <div class="high">79°</div>
+                    <div class="low">69°</div>
+                </div>
+            </div>
+
+            <div class="week-row">
+                <div class="day">Tuesday</div>
+                <div class="week-icon">🌦️</div>
+
+                <div class="temps">
+                    <div class="high">85°</div>
+                    <div class="low">72°</div>
+                </div>
+            </div>
+
+            <div class="week-row">
+                <div class="day">Wednesday</div>
+                <div class="week-icon">☀️</div>
+
+                <div class="temps">
+                    <div class="high">79°</div>
+                    <div class="low">69°</div>
+                </div>
+            </div>
+
+            <div class="show-more">
+                Show more ↓
+            </div>
+
+        </section>
+
+    </div>
+
+</body>
+
+</html>
